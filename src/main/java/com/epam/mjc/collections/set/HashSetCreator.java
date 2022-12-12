@@ -5,7 +5,7 @@ import java.util.List;
 
 public class HashSetCreator {
 
-    public static HashSet<Integer> createHashSet(List<Integer> sourceList) {
+    public HashSet<Integer> createHashSet(List<Integer> sourceList) {
         HashSet<Integer> hashSet = new HashSet<>();
         for (Integer list : sourceList) {
             if (list % 2 == 0) {
